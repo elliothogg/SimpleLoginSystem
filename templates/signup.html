@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<h1> Signup </h1>
+<form action='/signup' method='POST'>
+    <label for="username">Username:</label><br>
+    <input type = "username" id="username" name="username"/><br>
+    <label for = "password">Password:</label><br>
+    <input type = "password" id="password" name="password"/><br>
+    <input type = "submit"/><br>
+</form>
+
+{% endblock %}
